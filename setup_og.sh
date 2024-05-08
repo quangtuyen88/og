@@ -47,7 +47,6 @@ sed -i \
   -e 's|^node *=.*|node = "tcp://localhost:14257"|' \
   $HOME/.0gchain/config/client.toml
 
-.0gchain
 
 ### downlaod genesis file
 wget -P $HOME/.0gchain/config https://github.com/0glabs/0g-chain/releases/download/v0.1.0/genesis.json
